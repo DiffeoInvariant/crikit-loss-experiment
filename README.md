@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/352093813.svg)](https://zenodo.org/badge/latestdoi/352093813)
+
 This repository contains code comparing the quadratic Wasserstein distance to the regular squared `L^2` norm (`crikit.integral_loss`), where the quadratic Wasserstein distance is approximated with the sliced quadratic Wasserstein distance with 30 slices (`crikit.SlicedWassersteinDistance`). The problem is inferring the p-Stokes CR (from `examples/p-stokes/p-stokes.py`) where the learned CR is (line 324 of `loss-experiment.py`)
 ```
 def cr_func(scalar_invts, theta):
