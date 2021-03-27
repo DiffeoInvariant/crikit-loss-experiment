@@ -3,8 +3,8 @@
 #-pc_fieldsplit_detect_saddle_point
 #-start_in_debugger
 -ksp_rtol 1e-10
--snes_stol 1e-8
--snes_rtol 1e-8
+-snes_stol 1e-10
+-snes_rtol 1e-10
 -snes_max_it 7000
 -ksp_max_it 5000
 -ksp_type preonly
